@@ -15,13 +15,13 @@ bower install
 nodemon app
 ````
 
-## Development Workflow
+# Development Workflow
 
-## Knowledge Repository
+# Knowledge Repository
 
-## Stack Objectives
+# Stack Objectives
 
-## Stack Technologies
+# Stack Technologies
 
 * **Sails.js**
 * **Sails Waterline**
@@ -31,5 +31,5 @@ nodemon app
 * **Angular-UI-Router**
 
 
-## Before Start
+# Before Start
 
