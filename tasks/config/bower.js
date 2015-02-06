@@ -18,16 +18,12 @@ module.exports = function(grunt) {
 				verbose: false,
 				cleanTargetDir: true,
 				cleanBowerDir: true,
-				bowerOptions: {}
+				bowerOptions: {},
+                dest: './assets/',
+                js_dest: './assets/js/vendor',
+                css_dest: './assets/styles',
 			}
 		},
-    dev: {
-      dest: './assets/',
-      js_dest: './assets/js/vendor',
-      css_dest: './assets/styles',
-      cleanTargetDir: true,
-      cleanBowerDir: true,
-    }
 	});
 
   grunt.loadNpmTasks('grunt-bower');
